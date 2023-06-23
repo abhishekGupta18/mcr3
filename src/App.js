@@ -1,7 +1,12 @@
 import "./App.css";
 
+import { ProductsList } from "./Contex/Home";
 function App() {
-  return <div className=" text-xl ">MCR3</div>;
+  return (
+    <div>
+      <ProductsList />
+    </div>
+  );
 }
 
 export default App;
